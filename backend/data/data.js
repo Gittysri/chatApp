@@ -105,6 +105,21 @@ const chats = [
       email: "guest@example.com",
     },
   },
+  {
+    isGroupChat: false,
+    users: [
+      {
+        name: "Srinath",
+        email: "anthony@example.com",
+      },
+      {
+        name: "Piyush",
+        email: "piyush@example.com",
+      },
+    ],
+    _id: "617a077e18c2d068bc7c4dd4",
+    chatName: "Srinath",
+  },
 ];
 
 module.exports={chats};
